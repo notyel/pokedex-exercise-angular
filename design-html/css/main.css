@@ -4,6 +4,7 @@
     --clr-black: #1c1c1c;
     --clr-gray: #ececec;
     --clr-white: #f7f7f7;
+    --clr-red: #e3350d;
 
     --type-normal: #A8A878;
     --type-fire: #F08030;
@@ -130,7 +131,33 @@ main {
     position: relative;
     isolation: isolate;
     overflow: hidden;
+    cursor: pointer;
 }
+
+.pokemon:hover {
+    background-color: var(--clr-red);
+    transition: background-color 0.3s ease;
+}
+
+.pokemon:hover .pokemon-name {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.pokemon:hover .pokemon-id {
+    background-color: var(--clr-black);
+    transition: background-color 0.3s ease;
+    color: var(--clr-white);
+    transition: color 0.2s ease;
+}
+
+.pokemon:hover .stat {
+    background-color: var(--clr-black);
+    transition: background-color 0.3s ease;
+    color: var(--clr-white);
+    transition: color 0.2s ease;
+}
+
 
 .pokemon-id-back {
     position: absolute;
