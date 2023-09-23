@@ -1,1 +1,5 @@
-<p>pokemon-list works!</p>
+<div id="all">
+    <div class="pokemon-all" id="pokemonList">
+        <app-pokemon *ngFor="let pokemon of pokemonList" [pokemon]="pokemon"></app-pokemon>
+    </div>
+</div>

@@ -16,7 +16,7 @@ import { SharedModule } from '@shared/shared.module';
   imports: [
     CommonModule,
     PokedexRoutingModule,
-    SharedModule
+
   ]
 })
 export class PokedexModule { }
