@@ -4,7 +4,7 @@ import { PokedexRoutingModule } from './pokedex.routes';
 import { PokedexPageComponent } from './pages/pokedex-page/pokedex-page.component';
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
-
+import { SharedModule } from '@shared/shared.module';
 
 
 @NgModule({
@@ -15,7 +15,8 @@ import { PokemonComponent } from './pokemon/pokemon.component';
   ],
   imports: [
     CommonModule,
-    PokedexRoutingModule
+    PokedexRoutingModule,
+    SharedModule
   ]
 })
 export class PokedexModule { }

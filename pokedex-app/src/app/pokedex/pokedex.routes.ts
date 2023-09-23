@@ -1,12 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
 
-
+const routes: Routes = [
+  {
+    path: 'pokedex',
+    loadChildren: () => import('./pokedex.module').then(m => m.PokedexModule),
+    pathMatch: 'prefix',
+    title: "Pokémon | Pokedex",
+  },
+  {
+    path: '**', //TODO 404 cuando no existe la ruta
+    redirectTo: '/pokedex'
+  }
+];
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
 })
 export class PokedexRoutingModule { }
