@@ -1,5 +1,7 @@
 <div id="all">
-    <div class="pokemon-all" id="pokemonList">
+    <div class="pokemon-list" id="pokemonList">
         <app-pokemon *ngFor="let pokemon of pokemonList" [pokemon]="pokemon"></app-pokemon>
     </div>
 </div>
+
+<app-pikachu-animation [class.fade-out]="!isLoading"></app-pikachu-animation>
