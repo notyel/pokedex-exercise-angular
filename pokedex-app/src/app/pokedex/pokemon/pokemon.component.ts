@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Pokemon } from 'src/app/core/models/pokemon.model';
 
 @Component({
@@ -6,10 +6,16 @@ import { Pokemon } from 'src/app/core/models/pokemon.model';
   templateUrl: './pokemon.component.html',
   styleUrls: ['./pokemon.component.scss']
 })
-export class PokemonComponent {
+export class PokemonComponent implements OnInit {
   @Input() pokemon: Pokemon = {} as Pokemon;
+  isSvgImage: boolean = false
 
   formatPokemonId(id: number): string {
     return id.toString().padStart(3, '0');
+  }
+
+  ngOnInit(): void {
+    // Comprueba si la imagen es un SVG
+    this.isSvgImage = this.pokemon.imageUrl.endsWith('.svg');
   }
 }

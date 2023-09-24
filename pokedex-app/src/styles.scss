@@ -177,6 +177,10 @@ main {
     max-width: 6rem;
 }
 
+.img-svg {
+    height: 120px;
+}
+
 .pokemon-info {
     display: flex;
     flex-direction: column;
@@ -218,6 +222,7 @@ main {
 .type {
     padding: .25rem .5rem;
     border-radius: 100vmax;
+    filter: brightness(1.1);
 }
 
 .pokemon-stats {
