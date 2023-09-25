@@ -35,7 +35,7 @@ export class PokemonService {
           types: types,
           height: `${heightInMeters}m`,
           weight: response.weight + 'kg',
-          //          imageUrl: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${response.id}.png`
+          //imageUrl: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${response.id}.png`
           imageUrl: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${response.id}.svg`
         };
       })
