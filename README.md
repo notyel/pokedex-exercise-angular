@@ -4,6 +4,8 @@
 
 **Pokedex Exercise Angular** es una aplicación Pokédex desarrollada en Angular con el objetivo de proporcionar una experiencia educativa y entretenida para los amantes de los Pokémon. Con esta aplicación, puedes explorar el fascinante mundo de los Pokémon y obtener información detallada sobre sus habilidades y características únicas.
 
+<p align="center"> <img src="screenshots/screenshots-001.png" /> </p>
+
 ## Estado de Desarrollo
 
 ⚠️ **Este proyecto está en fase de desarrollo y estoy trabajando en mejoras constantes.** Si encuentras algún error o tienes sugerencias, no dudes en informarme abriendo un [issue](https://github.com/notyel/pokedex-exercise-angular/issues).
