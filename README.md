@@ -64,6 +64,28 @@ Para ejecutar la aplicación, sigue estos pasos:
 
 5. Abre tu navegador y accede a [http://localhost:4200/](http://localhost:4200/) para explorar la Pokédex.
 
+## ¿Qué es Angular? (Información de interes)
+
+**Angular** es un popular framework de desarrollo de aplicaciones web y móviles. Fue creado por Google y es una de las herramientas más utilizadas para la creación de aplicaciones web de una sola página (*SPA*, por sus siglas en inglés) y aplicaciones web progresivas (*PWA*). Angular se basa en el lenguaje TypeScript y ofrece un conjunto de herramientas y bibliotecas que facilitan la creación de aplicaciones web complejas y dinámicas.
+
+Algunas de las características clave de Angular incluyen:
+
+1. **Componentes**: Angular se basa en un sistema de componentes, lo que significa que la interfaz de usuario se descompone en piezas reutilizables llamadas componentes. Cada componente tiene su propio HTML, CSS y lógica de JavaScript/TypeScript.
+
+2. **Enlace de datos bidireccional**: Angular proporciona enlace de datos bidireccional, lo que permite la sincronización automática de datos entre el modelo y la vista. Cuando los datos cambian en el modelo, la vista se actualiza automáticamente y viceversa.
+
+3. **Inyección de dependencias**: Angular utiliza un sistema de inyección de dependencias que facilita la gestión de las dependencias y la creación de componentes y servicios de manera modular y mantenible.
+
+4. **Enrutamiento**: Angular incluye un módulo de enrutamiento que permite crear aplicaciones de una sola página con múltiples vistas y rutas. Esto es especialmente útil para aplicaciones web que tienen múltiples páginas o secciones.
+
+5. **Directivas**: Angular ofrece directivas personalizadas que permiten extender el HTML con funcionalidades personalizadas. Por ejemplo, la directiva `ngFor` se utiliza para iterar sobre una lista de elementos en la vista.
+
+6. **Compatibilidad con TypeScript**: Angular se desarrolla con TypeScript, un superconjunto de JavaScript que agrega tipos estáticos y otras características que facilitan el desarrollo y la detección temprana de errores en el código.
+
+7. **Herramientas de desarrollo**: Angular proporciona herramientas de desarrollo robustas, como Angular CLI (Command Line Interface) para crear y gestionar proyectos, así como herramientas de depuración y pruebas.
+
+Angular es ampliamente utilizado en la industria para crear aplicaciones web complejas y de alto rendimiento. Su arquitectura modular y su énfasis en las mejores prácticas de desarrollo hacen que sea una elección popular para desarrolladores y equipos de desarrollo que trabajan en proyectos web exigentes.
+
 ## Contribución
 
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
