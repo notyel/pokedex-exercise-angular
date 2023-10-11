@@ -102,4 +102,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ---
 
-Hecho con ❤️ por Leyton Manuel Espitia Diaz | [Github](https://github.com/notyel)
+Hecho con ❤️ por [Leyton Manuel Espitia Diaz](https://github.com/notyel) | [Github](https://github.com/notyel)
