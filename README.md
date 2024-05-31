@@ -62,7 +62,7 @@ Para ejecutar la aplicación, sigue estos pasos:
    ng serve
    ```
 
-5. Abre tu navegador y accede a [http://localhost:4200/](http://localhost:4200/) para explorar la Pokédex.
+5. Abre tu navegador y accede a [http://localhost:4200/](http://localhost:4200/) para explorar la Pokédex, [Demo](https://pokedex-exercise-angular.vercel.app/pokedex).
 
 ## ¿Qué es Angular? (Información de interes)
 
