@@ -7,18 +7,13 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 import { SharedModule } from '@shared/shared.module';
 import { PikachuAnimationComponent } from './pikachu-animation/pikachu-animation.component';
 
-
 @NgModule({
   declarations: [
     PokedexPageComponent,
     PokemonListComponent,
     PokemonComponent,
-    PikachuAnimationComponent
+    PikachuAnimationComponent,
   ],
-  imports: [
-    CommonModule,
-    PokedexRoutingModule,
-
-  ]
+  imports: [CommonModule, PokedexRoutingModule],
 })
-export class PokedexModule { }
+export class PokedexModule {}

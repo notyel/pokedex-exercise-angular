@@ -1,22 +1,22 @@
 <div class="pokemon">
-    <p class="pokemon-id-back">#{{ formatPokemonId(pokemon.id) }}</p>
-    <div class="pokemon-image" [ngClass]="{'img-svg': isSvgImage}">
-        <img [src]="pokemon.imageUrl" [alt]="pokemon.name">
+  <p class="pokemon-id-back">#{{ formatPokemonId(pokemon.id) }}</p>
+  <div class="pokemon-image" [ngClass]="{'img-svg': isSvgImage}">
+    <img [src]="pokemon.imageUrl" [alt]="pokemon.name">
+  </div>
+  <div class="pokemon-info">
+    <div class="name-container">
+      <p class="pokemon-id">#{{ formatPokemonId(pokemon.id) }}</p>
+      <h2 class="pokemon-name">{{ pokemon.name }}</h2>
     </div>
-    <div class="pokemon-info">
-        <div class="name-container">
-            <p class="pokemon-id">#{{ formatPokemonId(pokemon.id) }}</p>
-            <h2 class="pokemon-name">{{ pokemon.name }}</h2>
-        </div>
-        <div class="pokemon-types">
-            <ng-container *ngFor="let type of pokemon.types">
-                <p class="{{ type.toLowerCase() }} type">{{ type }}</p>
-            </ng-container>
-        </div>
+    <div class="pokemon-types">
+      @for (type of pokemon.types; track type) {
+        <p class="{{ type.toLowerCase() }} type">{{ type }}</p>
+      }
+    </div>
 
-        <div class="pokemon-stats">
-            <p class="stat">{{ pokemon.height }}</p>
-            <p class="stat">{{ pokemon.weight }}</p>
-        </div>
+    <div class="pokemon-stats">
+      <p class="stat">{{ pokemon.height }}</p>
+      <p class="stat">{{ pokemon.weight }}</p>
     </div>
+  </div>
 </div>
